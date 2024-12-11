@@ -1,0 +1,46 @@
+#introduction{
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: "Sunshiney", sans-serif;
+    color: #225f22;
+    position: absolute;
+    width: fit-content;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(1.5rem, 6vw, 25rem);
+}
+#search {
+    margin: 20px;
+    font-family: "Yusei Magic", sans-serif;
+}
+
+#result {
+    margin: 20px;
+}
+
+.movie-card {
+    font-family: "Reenie Beanie", sans-serif;
+    background-color: #baeaf9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+.movie-title {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #333;
+}
+
+.movie-description {
+    font-family: "Yusei Magic", sans-serif;
+    font-size: 1rem;
+    color: #343434;
+}
